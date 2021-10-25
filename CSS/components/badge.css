@@ -10,6 +10,22 @@
     font-weight: 600;
 }
 
+.badge_new {
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    right: -30px;
+    bottom: 0;
+    border-radius: 10px;
+}
+
 .user-component__subtitle i {
     color: red;
 }
