@@ -16,19 +16,26 @@
     padding: 0px var(--horizontal-space);
 }
 
+.friends-screen .division-line {
+    padding-bottom: 10px;
+    border-bottom: var(--main-border);
+}
+
 .friends-screen__channel {
-    margin-top: 25px;
-    border-top: var(--main-border);
+    border-bottom: var(--main-border);
     padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
 }
 
+.friends-screen__channel:last-child {
+    border-bottom: none;
+}
 @keyframes hideSplashScreen {
     from {
         opacity: 1;
